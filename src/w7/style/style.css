@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 25rem;
+  background-color: oklch(98% 0.025 90);
+  overflow-x: hidden;
+  border-radius: 0.75rem;
+  margin-top: 3rem;
+}
+
+.card--color-blue {
+  background-color: oklch(98% 0.025 200);
+}
+
+.card:first-child {
+  margin-top: 0;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__top {
+  /*margin: 1rem;*/
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+}
+
+.card__bottom {
+  padding: 1rem;
+}
+
+.card__p {
+  margin-top: 2rem;
+}
+
+.card__title {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.card__subtitle {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  line-height: 1.25rem;
+}
+
+.card__bottom .card__tittle {
+  font-weight: 400;
+}
+
+/*.card__bottom > .card__tittle {
+  font-weight: 400;
+}*/
+
+.card__bottom .card__subtittle {
+  margin-top: 0;
+}
+
+.flex-container-opt-1 {
+  /*gap: 1rem;*/
+  column-gap: 1rem;
+  row-gap: 1.5rem;
+}
+
+.flex-container-opt-2 {
+  justify-content: right;
+  justify-content: center;
+  justify-content: scp;
+}
+
+.flex-child-opt-3 {
+  align-items: start;
+  align-items: end;
+  align-items: center;
+}
+
+.flex-child-opt-4 {
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-child-opt-4 > {
+  width: 7.5rem;
+  flex-basis: 0;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrrap-opt-1 {
+  column-gap: 0.75rem;
+  row-gap: 1.5rem;
+}
+
+.flex--wrrap-opt-1 > * {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 10rem;
+}
