@@ -193,7 +193,7 @@ img {
 
 .last__ma {
   margin: 0;
-  padding: 0px 35px;
+  padding: 0px 70px;
 }
 
 .last__title {
@@ -229,4 +229,13 @@ img {
   bottom: 0;
   right: 0;
   color: #fff;
+}
+
+.last__bottom {
+  margin-top: 230px;
+  font-size: 20px;
+}
+
+.size {
+  font-size: 20px;
 }
