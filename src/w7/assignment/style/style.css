@@ -153,3 +153,7 @@ body {
 .contents__box {
   align-items: center;
 }
+
+.box {
+  margin: 100px;
+}
