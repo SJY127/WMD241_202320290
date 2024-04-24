@@ -158,7 +158,6 @@ body {
 
 .container__box {
   display: flex;
-  display: flex;
   justify-content: center;
 }
 
@@ -186,7 +185,7 @@ body {
 
 .last__ma {
   margin: 0;
-  padding: 0;
+  padding: 0px 35px;
 }
 
 .last__title {
@@ -202,4 +201,17 @@ body {
   color: #fff;
   list-style: none;
   margin: 5px 0px 5px 0px;
+}
+
+.last__title__ {
+  color: #fff;
+  font-weight: 700px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.last__box {
+  display: flex;
 }
