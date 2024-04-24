@@ -138,6 +138,14 @@ body {
   align-content: left;
 }
 
+img {
+  width: 80px;
+  height: 80px;
+  padding-right: 85.59px;
+  margin-top: 50px;
+  align-content: left;
+}
+
 .lem {
   padding-right: 24px;
 }
@@ -214,4 +222,11 @@ body {
 
 .last__box {
   display: flex;
+}
+
+.last__last {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
 }
