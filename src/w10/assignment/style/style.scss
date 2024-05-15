@@ -18,7 +18,7 @@ body {
   background-color: #f6f6eb;
 
   &__container {
-    width: 55%;
+    width: 70%;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
@@ -58,6 +58,12 @@ body {
   max-width: 80rem;
   padding-inline: 24px;
   margin-inline: auto;
+}
+
+@media (max-width: 1240px) {
+  .main {
+    row-gap: 300px;
+  }
 }
 
 .sidebar {
