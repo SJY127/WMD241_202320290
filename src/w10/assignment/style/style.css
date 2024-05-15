@@ -250,3 +250,15 @@ body {
   margin-bottom: 8px;
   line-height: 200%;
 }
+.footer__text-none {
+  color: #10284b;
+}
+
+.footer__lastleft {
+  height: 12px;
+}
+
+.footer__last-right {
+  grid-column: 3/5;
+  color: #fedb63;
+}

@@ -274,4 +274,18 @@ body {
     margin-bottom: 8px;
     line-height: 200%;
   }
+  &__text-none {
+    color: #10284b;
+  }
+}
+
+.footer__last {
+  &left {
+    height: 12px;
+  }
+}
+
+.footer__last-right {
+  grid-column: 3/ 5;
+  color: #fedb63;
 }
