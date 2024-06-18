@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottie Embeding</title>
+
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script>
+      LottieInteractivity.create({
+        player: "#lottie-2",
+        mode: "cursor",
+        actions: [
+          {
+            type: "click",
+            forceFlag: false,
+          },
+        ],
+      });
+    </script>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+          architecto.
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam
+          natus voluptatem molestiae obcaecati commodi explicabo alias! Debitis,
+          maiores repellendus?
+        </p>
+
+        <dotlottie-player
+          id="lottie-1"
+          class="lottie"
+          src="./assets/lottie-downloaded.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></dotlottie-player>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+          exercitationem, rerum molestias nihil molestiae nisi deleniti sed
+          explicabo quis eaque, omnis ad reiciendis obcaecati optio perferendis
+          provident temporibus repellendus. Sint?
+        </p>
+        <lottie-player
+          id="lottie-2"
+          class="lottie"
+          src="https://lottie.host/630024de-5a86-477c-8f03-f7573108ccfc/OZg84YcUGD.json"
+          background="transparent"
+          speed="1"
+        ></lottie-player>
+      </div>
+    </div>
+  </body>
+</html>
